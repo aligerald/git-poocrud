@@ -27,6 +27,9 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `persons`
 --
 
+CREATE DATABASE poocrud;
+use DATABASE poocrud;
+
 CREATE TABLE `persons` (
   `id_per` int(10) NOT NULL,
   `name_per` varchar(20) COLLATE utf8_spanish_ci NOT NULL,
